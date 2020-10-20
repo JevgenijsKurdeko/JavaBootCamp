@@ -16,7 +16,7 @@ public class CalculatorClient {
 		*/
 		Calculator normalCalc = new Calculator(Calculator.CALC_TYPE_BASIC);
 		
-		System.out.println("*** Calculations will be performed using "+normalCalc.getCalculatorType()+ " calculator ***");
+		System.out.println("*** Calculations will be performed using " + normalCalc.getCalculatorType() + " calculator ***");
 		
 		// Add 
 		int result = normalCalc.add(4, 5);
@@ -28,6 +28,13 @@ public class CalculatorClient {
 		result = normalCalc.multiply(mul);
 		System.out.println("2) Multiplication result is " + result); 
 		
+		// Subtract
+		int result2 = normalCalc.subtract(2, 4);
+		System.out.println("3) Subtract result is " + result2);
+		
+		// Divide
+		float result3 = normalCalc.divide(3, 2);
+		System.out.println("4) Divide result is " + result3);
 
 	}
 

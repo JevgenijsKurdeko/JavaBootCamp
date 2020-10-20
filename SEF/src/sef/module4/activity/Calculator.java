@@ -8,14 +8,14 @@ package sef.module4.activity;
  *
  */
 
-public class datastruc{
-	
-	int ,
-	float,
-	long, 
-	string, 
-	 
-}
+//public class datastruc{
+//	
+//	int ,
+//	float,
+//	long, 
+//	string,
+//	 
+//}
 public class Calculator {
 
 	
@@ -41,7 +41,7 @@ public class Calculator {
 	}
 	
 	// Add 
-	public int add(object ;) {
+	public int add(int x, int y) {
 		int sum = x + y;
 		return sum;
 	}
@@ -70,8 +70,8 @@ public class Calculator {
 	}
 
 	// Divide
-	public int divide(int x, int y) {
-		int divValue = 0;
+	public float divide(float x, float y) {
+		float divValue = 0;
 		if (x == 0 || y == 0) {
 			divValue = 0;
 		} else {
