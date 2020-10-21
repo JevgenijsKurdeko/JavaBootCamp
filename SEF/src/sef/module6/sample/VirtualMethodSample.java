@@ -3,7 +3,7 @@ package sef.module6.sample;
 public class VirtualMethodSample {
 	public static void main(String arg[]){
 		Person_P p = new Person_P();
-		Person_P p = new 
+		Person_P b = new Person_P();
 		p.setName("John Doe");
 		
 		//Student inherits the methods and behavior from the Person class
