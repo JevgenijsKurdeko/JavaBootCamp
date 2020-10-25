@@ -10,6 +10,7 @@ public class AbstractionSample {
 		Person_A pE = new Employee_A();
 		pE.setAge(21);
 		pE.setName("Smith");
+		pE.
 				
 		Person_A pS = new Student_A();
 		pS.setAge(15);

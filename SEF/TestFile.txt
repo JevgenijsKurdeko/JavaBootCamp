@@ -1,0 +1,5 @@
+Test line for file write!
+(John, 3000)
+(Nick, 5000)
+(Matt, 20000)
+Ena file!

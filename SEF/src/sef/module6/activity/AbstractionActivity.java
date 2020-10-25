@@ -4,7 +4,7 @@ public class AbstractionActivity {
 
 	public static void main(String[] args) {
 		
-		Rectangle shape = new Rectangle(5, 6, "WHITE");
+		Shape shape = new Rectangle(5, 6, "WHITE");
 		
 		System.out.println("Area of Rectangle is " + shape.calculateArea());
 		System.out.println("Perimeter of Square " + shape.calculatePerimeter());

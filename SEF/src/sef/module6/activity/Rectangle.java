@@ -25,7 +25,7 @@ public class Rectangle extends Shape{
 
 	@Override
 	double calculatePerimeter() {
-		double perimeter = 2 * (length * breadth);
+		double perimeter = 2 * (length + breadth);
 		return perimeter;
 	}
 	
